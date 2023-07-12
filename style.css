@@ -1,0 +1,176 @@
+body {
+	background-color: #fafafa;
+	display: flex;
+	flex-flow: column wrap;
+	align-items: center;
+	justify-content: center;
+	font-family: "Segoe UI", Roboto, Helvetica, Arial, sans serif;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	padding-bottom: 40px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
+
+footer a {
+	text-decoration: none;
+	color: #003569;
+	font-size: 0.75rem;
+	font-weight: 500;
+}
+
+form {
+	width: 100%;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+}
+
+input {
+	width: 80%;
+	padding: 10px;
+	border: 1px solid #e6e6e6;
+	background-color: #fafafa;
+	border-radius: 3px;
+	margin-bottom: 5px;
+}
+
+input::placeholder {
+	color: #999;
+	font-size: 0.7rem;
+}
+
+#login {
+	border: 1px solid #e6e6e6;
+	background-color: #ffffff;
+	display: flex;
+	align-items: center;
+	flex-flow: column wrap;
+	width: 30%;
+	min-width: 350px;
+}
+
+#signup {
+	border: 1px solid #e6e6e6;
+	background-color: #ffffff;
+	width: 30%;
+	min-width: 350px;
+	display: flex;
+	justify-content: center;
+	margin-top: 10px;
+	font-weight: 300;
+	padding: 15px 0;
+	font-size: 0.9rem;
+}
+
+#signup a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #3897f0;
+}
+
+#or {
+	padding: 0 15px;
+	font-size: 0.75rem;
+	color: #999;
+	font-weight: bold;
+}
+
+#logo {
+	margin: 15px;
+}
+
+#FBLogin {
+	color: #385185;
+	text-decoration: none;
+	padding: 0 15px;
+	font-weight: 600;
+	font-size: 0.9rem;
+	margin: 10px;
+
+}
+
+#forgotPW {
+	text-decoration: none;
+	font-size: 0.75rem;
+	color: #385185;
+	margin: 10px 0 20px 0;
+}
+
+.blue-btn {
+	color: white;
+	background-color: #3897f0;
+	border: none;
+	border-radius: 3px;
+	width: 80%;
+	padding: 7px 0 7px 0;
+	font-weight: bold;
+}
+
+#getApp {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+	font-size: 0.8rem;
+}
+
+#getApp a {
+	margin: 2px;
+}
+
+#loginError {
+	color: red;
+	text-align: center;
+	font-size: 0.8rem;
+	width: 80%;
+	margin: auto;
+}
+
+.blue-btn:disabled {
+	opacity: 0.3;
+}
+
+.line {
+	height: 1px;
+	width: 50%;
+	background-color: #e6e6e6;
+	display: flex;
+	align-self: center;
+}
+
+.orRow {
+	display: flex;
+	width: 80%;
+	margin: 10px 0;
+}
+
+.fa-facebook-square {
+	color: #385185;
+	margin-right: 5px;
+	font-size: 1.25rem;
+}
+
+.copyright {
+	color: #999;
+	font-size: 0.75rem;
+	font-weight: 500;
+	margin: 15px;
+	display: flex;
+	align-items: center;
+}
+
+.flinks {
+	margin: 15px;
+	display: flex;
+	align-items: flex-start;
+}
+
+.flinks a {
+	margin: 5px;
+}

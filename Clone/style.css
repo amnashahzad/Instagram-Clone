@@ -1,0 +1,31 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.1.4/tailwind.min.css');
+.h-70 {
+            height: 70px;
+        }
+
+        .h-293 {
+            height: 293px;
+        }
+
+        .w-293 {
+            width: 293px;
+        }
+
+        .w-950 {
+            width: 950px;
+        }
+
+        .m-14 {
+            margin: 14px;
+        }
+        .-ml-14 {
+            margin-left: -14px;
+        }
+
+        .ml-365 {
+            margin-left: 365px;
+        }
+
+        .bg-gray-custom {
+            background: #fafafa;
+        }
